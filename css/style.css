@@ -1,0 +1,31 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+
+html,body{margin:0;padding:0}body{font-family:"Droid Sans",Arial,sans-serif;color:#777;background:#fff;font-size:16px;line-height:1.7}a{color:#17b794;text-decoration:none;transition:.3s}a:hover,a:focus{color:#129b7e;text-decoration:none}.container{max-width:1170px}
+
+#page{position:relative;overflow:hidden;width:100%;min-height:100vh}.fh5co-loader{display:none}
+
+.fh5co-nav{width:100%;margin:0;padding:0;background:#fff;position:relative;z-index:1000;box-shadow:0 1px 8px rgba(0,0,0,.08)}.fh5co-nav .top-menu{padding:25px 0}.fh5co-nav .navbar-brand{font-size:28px;font-weight:700;color:#222}.fh5co-nav ul{margin:0;padding:0;list-style:none}.fh5co-nav ul li{display:inline-block;margin-left:25px}.fh5co-nav ul li a{font-size:14px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#555}.fh5co-nav ul li.active a,.fh5co-nav ul li a:hover{color:#17b794}
+
+.fh5co-cover,.fh5co-bg-section{background-size:cover;background-position:center center;background-repeat:no-repeat;position:relative}.fh5co-cover{min-height:620px;display:flex;align-items:center}.fh5co-cover:before,.fh5co-bg-section:before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.35)}.fh5co-cover .overlay,.fh5co-bg-section .overlay{position:absolute;inset:0;background:rgba(0,0,0,.2)}.fh5co-cover .display-t,.fh5co-cover .display-tc{width:100%;position:relative;z-index:2}.fh5co-cover h1{font-size:52px;line-height:1.15;color:#fff;font-weight:700;margin:0 0 20px}.fh5co-cover p{font-size:20px;color:#fff;margin-bottom:30px}
+
+.btn{border-radius:0;padding:12px 25px;font-weight:700;letter-spacing:.5px;transition:.3s}.btn-primary{background:#17b794;border-color:#17b794}.btn-primary:hover,.btn-primary:focus{background:#129b7e;border-color:#129b7e}.btn-lg{padding:15px 30px}
+
+.fh5co-section{padding:80px 0}.fh5co-heading{text-align:center;margin-bottom:50px}.fh5co-heading h2{font-size:34px;color:#222;font-weight:700;margin-bottom:15px}.fh5co-heading p{max-width:700px;margin:0 auto;color:#888}
+
+.fh5co-feature{padding:35px 25px;margin-bottom:30px;background:#fff;border:1px solid #eee;text-align:center;min-height:220px;transition:.3s}.fh5co-feature:hover{transform:translateY(-5px);box-shadow:0 10px 30px rgba(0,0,0,.08)}.fh5co-feature .icon{font-size:42px;color:#17b794;margin-bottom:20px}.fh5co-feature h3{font-size:21px;color:#222;margin:0 0 12px;font-weight:700}
+
+.services,.service{padding:30px;background:#fff;border:1px solid #eee;margin-bottom:30px}.services h3,.service h3{color:#222;font-weight:700}.services ul,.service ul{padding-left:20px}
+
+.fh5co-work{display:block;position:relative;overflow:hidden;margin-bottom:30px}.fh5co-work img{width:100%;height:auto;display:block;transition:.5s}.fh5co-work:hover img{transform:scale(1.04)}.fh5co-work .desc{padding:20px;background:#fff}.fh5co-work .desc h3{margin:0;color:#222;font-size:20px}
+
+.fh5co-contact-info{padding:30px;background:#f7f7f7;margin-bottom:30px}.fh5co-contact-info ul{list-style:none;padding:0;margin:0}.fh5co-contact-info li{margin-bottom:15px}.form-control{height:48px;border-radius:0;border:1px solid #ddd;box-shadow:none;padding:10px 15px}.form-control:focus{border-color:#17b794;box-shadow:none}.form-group{margin-bottom:20px}textarea.form-control{height:150px;resize:vertical}
+
+#fh5co-footer{background:#222;color:#aaa;padding:60px 0 30px}#fh5co-footer h3{color:#fff;font-size:20px;margin-bottom:20px}#fh5co-footer a{color:#aaa}#fh5co-footer a:hover{color:#17b794}.copyright{border-top:1px solid #444;margin-top:40px;padding-top:25px}
+
+.row-pb-md{padding-bottom:4em}.row-pb-lg{padding-bottom:7em}.animate-box{opacity:1}.to-animate{opacity:1}.js .animate-box{opacity:1}
+
+@media(max-width:991px){.fh5co-nav .top-menu{padding:15px 0}.fh5co-nav ul li{margin-left:12px}.fh5co-cover{min-height:520px}.fh5co-cover h1{font-size:40px}.fh5co-section{padding:60px 0}}
+@media(max-width:767px){.fh5co-nav ul{margin-top:15px}.fh5co-nav ul li{display:block;margin:10px 0}.fh5co-cover{min-height:460px}.fh5co-cover h1{font-size:34px}.fh5co-cover p{font-size:17px}.fh5co-section{padding:45px 0}}
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
